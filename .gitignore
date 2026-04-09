@@ -1,3 +1,7 @@
 build\reports\*
 
 build\libs\*
+
+build\reports\*
+
+build\test-results\test\*
