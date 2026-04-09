@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="upb.edu.co.fairticket.domain.model.PurchaseTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-04-08T23:37:17.911Z" hostname="SSJB" time="0.005">
+  <properties/>
+  <testcase name="testCancelPurchase()" classname="upb.edu.co.fairticket.domain.model.PurchaseTest" time="0.001"/>
+  <testcase name="testCompletePurchase()" classname="upb.edu.co.fairticket.domain.model.PurchaseTest" time="0.0"/>
+  <testcase name="testCreatePurchase()" classname="upb.edu.co.fairticket.domain.model.PurchaseTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

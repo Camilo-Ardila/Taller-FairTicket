@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="upb.edu.co.fairticket.domain.usecase.user.RegisterUserUseCaseTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-04-08T23:37:18.376Z" hostname="SSJB" time="0.031">
+  <properties/>
+  <testcase name="[1] name = &quot;Carlos Vives&quot;, emailStr = &quot;carlos.vives@santamarta.com&quot;" classname="upb.edu.co.fairticket.domain.usecase.user.RegisterUserUseCaseTest" time="0.002"/>
+  <testcase name="[2] name = &quot;Shakira&quot;, emailStr = &quot;shakira@barranquilla.com&quot;" classname="upb.edu.co.fairticket.domain.usecase.user.RegisterUserUseCaseTest" time="0.001"/>
+  <testcase name="[3] name = &quot;Maluma&quot;, emailStr = &quot;maluma@medellin.com&quot;" classname="upb.edu.co.fairticket.domain.usecase.user.RegisterUserUseCaseTest" time="0.001"/>
+  <testcase name="testRegisterOrganizerDuplicateEmailThrowsException()" classname="upb.edu.co.fairticket.domain.usecase.user.RegisterUserUseCaseTest" time="0.002"/>
+  <testcase name="testRegisterBuyerDuplicateEmailThrowsException()" classname="upb.edu.co.fairticket.domain.usecase.user.RegisterUserUseCaseTest" time="0.003"/>
+  <testcase name="[1] name = &quot;J Balvin&quot;, emailStr = &quot;jose@vibras.com&quot;" classname="upb.edu.co.fairticket.domain.usecase.user.RegisterUserUseCaseTest" time="0.001"/>
+  <testcase name="[2] name = &quot;Julio Correal&quot;, emailStr = &quot;julio@rockalparque.com&quot;" classname="upb.edu.co.fairticket.domain.usecase.user.RegisterUserUseCaseTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

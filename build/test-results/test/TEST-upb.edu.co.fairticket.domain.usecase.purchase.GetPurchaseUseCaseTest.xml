@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="upb.edu.co.fairticket.domain.usecase.purchase.GetPurchaseUseCaseTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-04-08T23:37:18.323Z" hostname="SSJB" time="0.005">
+  <properties/>
+  <testcase name="testExecuteByIdSuccess()" classname="upb.edu.co.fairticket.domain.usecase.purchase.GetPurchaseUseCaseTest" time="0.002"/>
+  <testcase name="testExecuteByIdNotFound()" classname="upb.edu.co.fairticket.domain.usecase.purchase.GetPurchaseUseCaseTest" time="0.001"/>
+  <testcase name="testGetByBuyer()" classname="upb.edu.co.fairticket.domain.usecase.purchase.GetPurchaseUseCaseTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

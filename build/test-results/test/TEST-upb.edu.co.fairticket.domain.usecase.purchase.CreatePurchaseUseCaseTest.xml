@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="upb.edu.co.fairticket.domain.usecase.purchase.CreatePurchaseUseCaseTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-04-08T23:37:18.311Z" hostname="SSJB" time="0.011">
+  <properties/>
+  <testcase name="testExecuteTicketWrongBuyer()" classname="upb.edu.co.fairticket.domain.usecase.purchase.CreatePurchaseUseCaseTest" time="0.003"/>
+  <testcase name="testExecuteSuccess()" classname="upb.edu.co.fairticket.domain.usecase.purchase.CreatePurchaseUseCaseTest" time="0.004"/>
+  <testcase name="testExecuteEmptyTickets()" classname="upb.edu.co.fairticket.domain.usecase.purchase.CreatePurchaseUseCaseTest" time="0.001"/>
+  <testcase name="testExecuteTicketNotFound()" classname="upb.edu.co.fairticket.domain.usecase.purchase.CreatePurchaseUseCaseTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

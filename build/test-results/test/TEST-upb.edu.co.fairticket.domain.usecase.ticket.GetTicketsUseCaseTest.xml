@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="upb.edu.co.fairticket.domain.usecase.ticket.GetTicketsUseCaseTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-04-08T23:37:18.358Z" hostname="SSJB" time="0.003">
+  <properties/>
+  <testcase name="testExecuteEmpty()" classname="upb.edu.co.fairticket.domain.usecase.ticket.GetTicketsUseCaseTest" time="0.002"/>
+  <testcase name="testExecuteReturnsTickets()" classname="upb.edu.co.fairticket.domain.usecase.ticket.GetTicketsUseCaseTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

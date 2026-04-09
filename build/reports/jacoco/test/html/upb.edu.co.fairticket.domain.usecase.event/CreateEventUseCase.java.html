@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>CreateEventUseCase.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">fairticket</a> &gt; <a href="index.source.html" class="el_package">upb.edu.co.fairticket.domain.usecase.event</a> &gt; <span class="el_source">CreateEventUseCase.java</span></div><h1>CreateEventUseCase.java</h1><pre class="source lang-java linenums">package upb.edu.co.fairticket.domain.usecase.event;
+
+import lombok.RequiredArgsConstructor;
+import upb.edu.co.fairticket.domain.model.Event;
+import upb.edu.co.fairticket.domain.model.enums.EventCategory;
+import upb.edu.co.fairticket.domain.port.EventRepository;
+import upb.edu.co.fairticket.domain.port.UserRepository;
+import upb.edu.co.fairticket.domain.exception.UserNotFoundException;
+import upb.edu.co.fairticket.domain.exception.DomainException;
+import java.util.UUID;
+import java.time.LocalDateTime;
+
+@RequiredArgsConstructor
+public class CreateEventUseCase {
+    private final EventRepository eventRepository;
+    private final UserRepository userRepository;
+
+    public Event execute(String name, String description, String venue, LocalDateTime eventDate, 
+            LocalDateTime saleStartDate, LocalDateTime saleEndDate, EventCategory category, 
+            int maxTicketsPerUser, int totalTickets, UUID organizerId) {
+        
+<span class="fc" id="L22">        var organizer = userRepository.findById(organizerId)</span>
+<span class="fc" id="L23">            .orElseThrow(() -&gt; new UserNotFoundException(&quot;Organizer not found: &quot; + organizerId));</span>
+            
+<span class="fc bfc" id="L25" title="All 4 branches covered.">        if (!organizer.isOrganizer() &amp;&amp; !organizer.isAdmin()) {</span>
+<span class="fc" id="L26">            throw new DomainException(&quot;User is not authorized to create events&quot;);</span>
+        }
+        
+<span class="fc" id="L29">        Event event = Event.create(name, description, venue, eventDate, saleStartDate, saleEndDate, category,</span>
+                maxTicketsPerUser, totalTickets, organizerId);
+                
+<span class="fc" id="L32">        return eventRepository.save(event);</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.13.202504020838</span></div></body></html>

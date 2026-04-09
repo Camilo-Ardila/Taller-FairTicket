@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="upb.edu.co.fairticket.domain.model.valueobjects.EmailTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-04-08T23:37:17.940Z" hostname="SSJB" time="0.056">
+  <properties/>
+  <testcase name="testNullEmailThrowsException()" classname="upb.edu.co.fairticket.domain.model.valueobjects.EmailTest" time="0.001"/>
+  <testcase name="[1] invalidEmail = &quot;shakirabarranquilla.com&quot;" classname="upb.edu.co.fairticket.domain.model.valueobjects.EmailTest" time="0.006"/>
+  <testcase name="[2] invalidEmail = &quot;falcao@.com&quot;" classname="upb.edu.co.fairticket.domain.model.valueobjects.EmailTest" time="0.0"/>
+  <testcase name="[3] invalidEmail = &quot;carlos@vives&quot;" classname="upb.edu.co.fairticket.domain.model.valueobjects.EmailTest" time="0.0"/>
+  <testcase name="[1] validEmail = &quot;shakira@barranquilla.com&quot;" classname="upb.edu.co.fairticket.domain.model.valueobjects.EmailTest" time="0.0"/>
+  <testcase name="[2] validEmail = &quot;falcao@santamarta.com&quot;" classname="upb.edu.co.fairticket.domain.model.valueobjects.EmailTest" time="0.0"/>
+  <testcase name="[3] validEmail = &quot;carlos.vives@pescaito.co&quot;" classname="upb.edu.co.fairticket.domain.model.valueobjects.EmailTest" time="0.0"/>
+  <testcase name="[4] validEmail = &quot;jg.balvin@medellin.com&quot;" classname="upb.edu.co.fairticket.domain.model.valueobjects.EmailTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

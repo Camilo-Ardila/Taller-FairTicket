@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="upb.edu.co.fairticket.domain.model.UserTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-04-08T23:37:17.922Z" hostname="SSJB" time="0.017">
+  <properties/>
+  <testcase name="testCreateAdmin()" classname="upb.edu.co.fairticket.domain.model.UserTest" time="0.003"/>
+  <testcase name="testUpdateProfile()" classname="upb.edu.co.fairticket.domain.model.UserTest" time="0.012"/>
+  <testcase name="testCreateOrganizer()" classname="upb.edu.co.fairticket.domain.model.UserTest" time="0.001"/>
+  <testcase name="testCreateMultipleBuyers()" classname="upb.edu.co.fairticket.domain.model.UserTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
